@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="events" project="pubSub" file="/pubSub/src/events" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="117" y="120"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="2" language="java" name="pubSubServer.Channel" project="pubSub" 
+    file="/pubSub/src/pubSubServer/Channel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2465" y="1531"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="events.EventTypeB" project="pubSub" file="/pubSub/src/events/EventTypeB.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2886" y="1705"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="pubSubServer.SubscriptionManager" project="pubSub" 
+    file="/pubSub/src/pubSubServer/SubscriptionManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2973" y="758"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="5" language="java" name="states.subscriber.StateName" project="pubSub" 
+    file="/pubSub/src/states/subscriber/StateName.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="119" x="258" y="120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="6" language="java" name="subscribers.SubscriberType" project="pubSub" 
+    file="/pubSub/src/subscribers/SubscriberType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="142" x="417" y="120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="7" language="java" name="events.EventMessage" project="pubSub" file="/pubSub/src/events/EventMessage.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3116" y="1741"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="8" language="java" name="publishers" project="pubSub" file="/pubSub/src/publishers" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="599" y="120"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="9" language="java" name="events.EventFactory" project="pubSub" file="/pubSub/src/events/EventFactory.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="325" x="740" y="120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="pubSubServer.ChannelPoolManager" project="pubSub" 
+    file="/pubSub/src/pubSubServer/ChannelPoolManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3340" y="1154"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="subscribers.SubscriberFactory" project="pubSub" 
+    file="/pubSub/src/subscribers/SubscriberFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="307" x="1105" y="120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="orchestration.Orchestration" project="pubSub" 
+    file="/pubSub/src/orchestration/Orchestration.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="1452" y="120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="publishers.PublisherFactory" project="pubSub" 
+    file="/pubSub/src/publishers/PublisherFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="296" x="1605" y="120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="14" language="java" name="strategies.publisher.IStrategy" project="pubSub" 
+    file="/pubSub/src/strategies/publisher/IStrategy.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1495" y="1975"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="15" language="java" name="baseEntities.IEntity" project="pubSub" 
+    file="/pubSub/src/baseEntities/IEntity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2122" y="1576"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="16" language="java" name="states.subscriber.StateFactory" project="pubSub" 
+    file="/pubSub/src/states/subscriber/StateFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="172" x="2134" y="120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="strategies.publisher.StrategyFactory" project="pubSub" 
+    file="/pubSub/src/strategies/publisher/StrategyFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="220" x="2346" y="120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="18" language="java" name="publishers.PublisherType" project="pubSub" 
+    file="/pubSub/src/publishers/PublisherType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="151" x="2606" y="120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="19" language="java" name="orchestration.PubSubEntity" project="pubSub" 
+    file="/pubSub/src/orchestration/PubSubEntity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2129" y="1859"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="pubSubServer.ChannelEventDispatcher" project="pubSub" 
+    file="/pubSub/src/pubSubServer/ChannelEventDispatcher.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3591" y="761"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="21" language="java" name="pubSubServer" project="pubSub" file="/pubSub/src/pubSubServer" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="50" width="105" x="3335" y="120"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="22" language="java" name="states.subscriber" project="pubSub" file="/pubSub/src/states/subscriber" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="125" x="3480" y="120"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="23" language="java" name="pubSubServer.ChannelAccessControl" project="pubSub" 
+    file="/pubSub/src/pubSubServer/ChannelAccessControl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="323" x="3645" y="120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="24" language="java" name="strategies.publisher" project="pubSub" file="/pubSub/src/strategies/publisher" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="138" x="4008" y="120"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="25" language="java" name="publishers.ConcretePublisher" project="pubSub" 
+    file="/pubSub/src/publishers/ConcretePublisher.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1689" y="2194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <component id="26" language="java" name="src" project="pubSub" file="/pubSub/src" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="39" width="114" x="4186" y="120"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </component>  
+  <package id="27" language="java" name="orchestration" project="pubSub" file="/pubSub/src/orchestration" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="4340" y="120"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="28" language="java" name="baseEntities" project="pubSub" file="/pubSub/src/baseEntities" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="4481" y="120"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="29" language="java" name="subscribers" project="pubSub" file="/pubSub/src/subscribers" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="4622" y="120"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="30" language="java" name="events.AbstractEvent" project="pubSub" 
+    file="/pubSub/src/events/AbstractEvent.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3118" y="1532"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="pubSubServer.ChannelDiscovery" project="pubSub" 
+    file="/pubSub/src/pubSubServer/ChannelDiscovery.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="163" x="4763" y="120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="32" language="java" name="events.EventType" project="pubSub" file="/pubSub/src/events/EventType.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="142" x="4966" y="120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="33" language="java" name="events.EventTypeA" project="pubSub" file="/pubSub/src/events/EventTypeA.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3338" y="1705"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="subscribers.ConcreteSubscriberA" project="pubSub" 
+    file="/pubSub/src/subscribers/ConcreteSubscriberA.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2115" y="2205"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="35" language="java" name="states.subscriber.IState" project="pubSub" 
+    file="/pubSub/src/states/subscriber/IState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2961" y="1995"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <enumeration id="36" language="java" name="strategies.publisher.StrategyName" project="pubSub" 
+    file="/pubSub/src/strategies/publisher/StrategyName.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="149" x="5148" y="120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="37" language="java" name="events.EventIDMaker" project="pubSub" file="/pubSub/src/events/EventIDMaker.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="131" x="5337" y="120"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="subscribers.AbstractSubscriber" project="pubSub" 
+    file="/pubSub/src/subscribers/AbstractSubscriber.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2465" y="2004"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="publishers.AbstractPublisher" project="pubSub" 
+    file="/pubSub/src/publishers/AbstractPublisher.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1898" y="1976"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="pubSubServer.AbstractChannel" project="pubSub" 
+    file="/pubSub/src/pubSubServer/AbstractChannel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2466" y="1145"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="pubSubServer.ChannelCreator" project="pubSub" 
+    file="/pubSub/src/pubSubServer/ChannelCreator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3299" y="753"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="42">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="43" name="instance">        
+        <position height="0" width="0" x="306" y="747"/>      
+      </attribute>      
+      <multiplicity id="44" minimum="0" maximum="1">        
+        <position height="0" width="0" x="306" y="747"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="45">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="46" name="subscriberRole"/>      
+      <multiplicity id="47" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="48">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="49" name="subscribers"/>      
+      <multiplicity id="50" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="51">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="52" name="payload">        
+        <position height="0" width="0" x="-25" y="673"/>      
+      </attribute>      
+      <multiplicity id="53" minimum="0" maximum="1">        
+        <position height="0" width="0" x="-25" y="673"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="54">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="55" name="publishingStrategy"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="57">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="58" name="events">        
+        <position height="0" width="0" x="-46" y="666"/>      
+      </attribute>      
+      <multiplicity id="59" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="-46" y="666"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="60">    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="61" name="cpm"/>      
+      <multiplicity id="62" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="63">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="39"/>  
+  </generalization>  
+  <association id="64">    
+    <bendpoint x="3163" y="1202"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="65" name="channelsMap"/>      
+      <multiplicity id="66" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="67">    
+    <bendpoint x="3186" y="1113"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="68" name="channelList"/>      
+      <multiplicity id="69" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="70">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="38"/>  
+  </generalization>  
+  <association id="71">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="72" name="cpManager">        
+        <position height="0" width="0" x="306" y="747"/>      
+      </attribute>      
+      <multiplicity id="73" minimum="0" maximum="1">        
+        <position height="0" width="0" x="306" y="747"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="74">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="40"/>  
+  </generalization>  
+  <generalization id="75">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="30"/>  
+  </generalization>  
+  <association id="76">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="77" name="publisherRole"/>      
+      <multiplicity id="78" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="39" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="79">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <association id="80">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="81" name="state"/>      
+      <multiplicity id="82" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="83">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="15"/>  
+  </realization>  
+  <generalization id="84">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="30"/>  
+  </generalization>  
+  <association id="85">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="86" name="cpManager">        
+        <position height="0" width="0" x="306" y="747"/>      
+      </attribute>      
+      <multiplicity id="87" minimum="0" maximum="1">        
+        <position height="0" width="0" x="306" y="747"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
